@@ -67,19 +67,19 @@ __Métriques__
 
 ## Arborescence des dossiers
 
-Etude Campagne Marketing BURGER KING/
+```Etude Campagne Marketing BURGER KING/
 ├── database/ #Dossier contenant les script de création de base et insertion des données
 │   ├── CREATE DATABASE BDD_BK.sql    # Script SQL pour créer les tables de la base de données
 │   └── insertion_bdd.sql     # Script d'insertion des données dans les tables
 ├── DONNEE/ # Dossier des données externes et interne
 │   ├── Externe/ # Dossier contenant les données externe reçu
-    │   ├── carte_fidelite.txt        # Donnee .txt sur les cartes de fidélité de client
-    │   ├── carte_fidelite.txt        # Donnee sur les cartes de fidélité de client
-    │   ├── carte_fidelite.txt        # Donnee sur les cartes de fidélité de client
-    │   ├── carte_fidelite.txt        # Donnee sur les cartes de fidélité de client
-    │   └── carte_fidelite.txt        # Donnee sur les cartes de fidélité de client
+|   │   ├── carte_fidelite.txt        # Donnee .txt sur les cartes de fidélité de client
+|   │   ├── carte_fidelite.txt        # Donnee sur les cartes de fidélité de client
+|   │   ├── carte_fidelite.txt        # Donnee sur les cartes de fidélité de client
+|   │   ├── carte_fidelite.txt        # Donnee sur les cartes de fidélité de client
+|   │   └── carte_fidelite.txt        # Donnee sur les cartes de fidélité de client
 │   ├── Interne/ # Dossier contenant les données interne créer durant le projet
-    │   ├── x.csv        # Donnee .csv sur x
+|    │   ├── x.csv        # Donnee .csv sur x
 ├── requete/ # Dossier contenant les Requètes SQL pour répondre aux problématiques
 │   ├── 001 - Produit le plus vendu.txt  # Requète sur le produit le plus vendu.txt
 │   ├── 002 - 10 premiers produits les plus vendus.txt
@@ -94,4 +94,5 @@ Etude Campagne Marketing BURGER KING/
 │   ├── 011 - Cout Acquisition par Campagne.txt
 │   ├── 012- Comparaison entre le Cout d'Acquisition et la Rentabilite .txt
 │   ├── 013 - Ventes Avant et Après Campagnes.txt
-│   └── 014 - Duree moyenne d'une campagne marketing et impact sur les ventes.txt
+│   └── 014 - Duree moyenne d'une campagne marketing et impact sur les
+```
