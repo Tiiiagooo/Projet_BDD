@@ -79,7 +79,7 @@ __Métriques__
 |   │   ├── carte_fidelite.txt        # Donnee sur les cartes de fidélité de client
 |   │   └── carte_fidelite.txt        # Donnee sur les cartes de fidélité de client
 │   ├── Interne/ # Dossier contenant les données interne créer durant le projet
-|    │   ├── x.csv        # Donnee .csv sur x
+|   │   ├── x.csv        # Donnee .csv sur x
 ├── requete/ # Dossier contenant les Requètes SQL pour répondre aux problématiques
 │   ├── 001 - Produit le plus vendu.txt  # Requète sur le produit le plus vendu.txt
 │   ├── 002 - 10 premiers produits les plus vendus.txt
