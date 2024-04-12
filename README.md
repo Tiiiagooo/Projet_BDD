@@ -177,6 +177,7 @@ __Données externe__ <!--TODO : A MODIFIER -->
 
 ├── [requete/](./requete/)    
 │   ├── [requete sql simple/](./requete/requetesqlsimple/) 
+
 │   │   ├── [001 - Produit le plus vendu.txt](./requete/requetesqlsimple/001Produitleplusvendu.txt)  
 │   │   ├── [002 - 10 premiers produits les plus vendus.txt](./requete/requetesqlsimple/00210premiersproduitslesplusvendus.txt)
 │   │   ├── [003 - Campagne Marketing avec le Plus Grand Nombre de Ventes.txt](./requete/requetesqlsimple/003CampagneMarketingaveclePlusGrandNombredEventes.txt)
