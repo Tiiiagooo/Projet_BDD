@@ -133,11 +133,11 @@ __Données externe__ <!--TODO : A MODIFIER -->
 │   │   └── y
 ```
 
-[Etude Campagne Marketing BURGER KING](PROJET)
+[Etude Campagne Marketing BURGER KING](PROJET)  
 
-├── [database/](./database/)
-│   ├── [CREATE DATABASE BDD_BK.sql](./database/create_bdd.sql)    
-│   └── [insertion_bdd.sql](./database/insertion_bdd.sql)     
+├── [database/](./database/)  
+│   ├── [CREATE DATABASE BDD_BK.sql](./database/create_bdd.sql)      
+│   └── [insertion_bdd.sql](./database/insertion_bdd.sql)       
 
 ├── [DONNEE/](./DONNEE/)     
 │   ├── [Externe/](./DONNEE/Externe/)    
