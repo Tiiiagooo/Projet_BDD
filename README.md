@@ -71,7 +71,66 @@ __Données externe__ <!--TODO : A MODIFIER -->
 
 ## Arborescence des dossiers <!--TODO : A MODIFIER -->
 
+```Etude Campagne Marketing BURGER KING/
+├── database/ #Dossier contenant les script de création de base et insertion des données
+│   ├── CREATE DATABASE BDD_BK.sql    # Script SQL pour créer les tables de la base de données
+│   └── insertion_bdd.sql     # Script d'insertion des données dans les tables
+├── DONNEE/     # Dossier des données externes et interne 
+│   ├── Externe/    # Dossier contenant les données externe reçu au format txt et les données nettoyés au format csv
+│   │   ├── txt
+│   │   │   ├── carte_fidelite.txt    
+│   │   │   ├── classement_IDH.txt       
+│   │   │   ├── client.txt     
+│   │   │   ├── donnees_demogra.txt    
+│   │   │   ├── equipement.txt    
+│   │   │   ├── franchise.txt      
+│   │   │   ├── localisation.txt  
+│   │   │   ├── matiere_premiere.txt  
+│   │   │   ├── matiere_premiere_Burger_King.txt  
+│   │   │   ├── owner.txt  
+│   │   │   ├── Part_de_marche.txt  
+│   │   │   ├── taux_change.txt   
+│   │   │   └── taux_natalite.txt  
+│   │   ├── csv
+│   │   │   ├── carte_fidelite.csv    
+│   │   │   ├── classement_IDH.csv       
+│   │   │   ├── client.csv     
+│   │   │   ├── donnees_demogra.csv    
+│   │   │   ├── equipement.csv    
+│   │   │   ├── equipement_magasin_pays.csv  #il est un CSV produit lors de l'un des JOB
+│   │   │   ├── franchise.csv      
+│   │   │   ├── localisation.csv  
+│   │   │   ├── matiere_premiere.csv  
+│   │   │   ├── matiere_premiere_Burger_King.csv  
+│   │   │   ├── owner.csv  
+│   │   │   ├── Part_de_marche.csv  
+│   │   │   ├── taux_change.csv   
+│   │   │   ├── taux_natalite.csv 
+│   │   │   └── vente_pays.csv     #il est un CSV produit lors de l'un des JOB
+├── MCD/        # Dossier contenant le MCD du projet
+│   └── MCD_PROJET.loo
+├── requete/    # Dossier contenant les Requètes SQL pour répondre aux problématiques
+│   ├── requete sql simple/ # Dossier contenant les requètes SQL avec les données internes
+│   │   ├── 001 - Produit le plus vendu.txt  # Requète sur le produit le plus vendu.txt
+│   │   ├── 002 - 10 premiers produits les plus vendus.txt
+│   │   ├── 003 - Campagne Marketing avec le Plus Grand Nombre de Ventes.txt
+│   │   ├── 004 - Analyse de la vente par Campagne et par Pays.txt
+│   │   ├── 005 - l'interet de l'audience en fonction des publications par pays.txt
+│   │   ├── 006 - Analyse des Themes et Sujets Generant le Plus d'Engagement.txt
+│   │   ├── 007 - Sentiments par Campagne Marketing.txt
+│   │   ├── 008 - Revenu Total par Campagne.txt
+│   │   ├── 009 - Nombre de Produits Vendus par Campagne.txt
+│   │   ├── 010 - Analyse des ventes  des Campagnes Marketing par Pays.txt
+│   │   ├── 011 - Cout Acquisition par Campagne.txt
+│   │   ├── 012- Comparaison entre le Cout d'Acquisition et la Rentabilite .txt
+│   │   ├── 013 - Ventes Avant et Après Campagnes.txt
+│   │   └── 014 - Duree moyenne d'une campagne marketing et impact sur les
+│   ├── requete sql relation/ # Dossier contenant les requètes SQL avec la fusion des données interne et externe.
+│   │   ├── 001 - test.txt #Exemple1 des donnees
+│   │   └── 002 - test.txt #Exemple2 des donnees
+├── TALEND/    # Dossier contenant l'exportation de nos job et métadonnée 
 ```
+
 [Etude Campagne Marketing BURGER KING](PROJET)
 ├── [database/](./database/)
 │   ├── [CREATE DATABASE BDD_BK.sql](./database/create_bdd.sql)    
@@ -127,4 +186,3 @@ __Données externe__ <!--TODO : A MODIFIER -->
 │   │   ├── [013 - Ventes Avant et Après Campagnes.txt](./requete/requetesqlsimple/013VentesAvantetAprèsCampagnes.txt)
 │   │   └── [014 - Duree moyenne d'une campagne marketing et impact sur les](./requete/requetesqlsimple/014Dureemoyennedunecampagnemarketingetimpactsurles.txt)
 ├── [TALEND/](./TALEND/)    
-```
