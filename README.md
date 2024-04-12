@@ -157,7 +157,7 @@ __Données externe__ <!--TODO : A MODIFIER -->
 │   │   │   ├── [taux_change.txt](./DONNEE/Externe/txt/tauxchange.txt)   
 │   │   │   └── [taux_natalite.txt](./DONNEE/Externe/txt/tauxnatalite.txt)  
 
-│   │   ├── [csv/](./DONNEE/Externe/csv/)
+│   │   ├── [csv/](./DONNEE/Externe/csv/)  
 │   │   │   ├── [carte_fidelite.csv](./DONNEE/Externe/csv/cartefidelite.csv)    
 │   │   │   ├── [classement_IDH.csv](./DONNEE/Externe/csv/classementIDH.csv)       
 │   │   │   ├── [client.csv](./DONNEE/Externe/csv/client.csv)     
