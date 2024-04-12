@@ -131,7 +131,7 @@ __Données externe__ <!--TODO : A MODIFIER -->
 ├── TALEND/    # Dossier contenant l'exportation de nos job et métadonnée 
 ```
 
-[Etude Campagne Marketing BURGER KING](PROJET)
+[Etude Campagne Marketing BURGER KING](PROJET) \n
 ├── [database/](./database/)
 │   ├── [CREATE DATABASE BDD_BK.sql](./database/create_bdd.sql)    
 │   └── [insertion_bdd.sql](./database/insertion_bdd.sql)     
