@@ -142,7 +142,7 @@ __Données externe__ <!--TODO : A MODIFIER -->
 ├── [DONNEE/](./DONNEE/)     
 │   ├── [Externe/](./DONNEE/Externe/)    
 
-│   │   ├── [txt/](./DONNEE/Externe/txt/)
+│   │   ├── [txt/](./DONNEE/Externe/txt/)  
 │   │   │   ├── [carte_fidelite.txt](./DONNEE/Externe/txt/cartefidelite.txt)    
 │   │   │   ├── [classement_IDH.txt](./DONNEE/Externe/txt/classementIDH.txt)       
 │   │   │   ├── [client.txt](./DONNEE/Externe/txt/client.txt)     
