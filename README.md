@@ -1,4 +1,71 @@
+# Etude Campagne Marketing BURGER KING
 
+## Outils
+
+- Microsoft SQL Server Management Studio 18
+- TALEND V8.0.1
+
+## Feuille de Route
+
+### Contexte
+
+Conception d’un entrepôt de données pour étudier les données des clients issues des campagnes marketing numérique (spécifiquement sur les réseaux sociaux) afin d’analyser et d’optimiser les performances commerciales numériques et spécifiquement et identifier les tendances comportementales.
+
+### Informations entreprise 
+
++ Nom : Burger King.
++ Secteur d’activité : Restauration rapide.
++ Périmètre : Echelle européenne >> 40 pays.
++ Stratégie commerciale : commandes en ligne, service en livraison, service sur place.
+
+### Données 
+
++ Interactions relatives aux campagnes marketing numérique sur les plateformes de réseaux sociaux (Twitter, Facebook, Instagram) et par mail : post, commentaire, like, partage, coût.
++ Commandes quotidiennes : Commandes enregistrées numériques ou physiques.
++ Clients :  ge, sexe, pays, email, devices (appareils), préférences alimentaires.
++ Produits : typologie de produits dans les commandes.
++ Localisation des franchises : adresse, régions, pays.
+
+__Données Interne__
+
++ __Commerciaux__ :
+    + Commandes totales : ventes générées en ligne et en physique.
+    + Commandes en ligne : ventes générées en ligne.
+    + Chiffres d’affaires total : somme des montants des commandes réalisées en ligne et en physique.
+    + Chiffres d’affaires en ligne : somme des montants des commandes réalisées en ligne.
+    + Coûts : Budget investis dans les campagnes marketing numérique.
+    + ROI (return on Investment) total : Retour sur investissement >> (coût campagnes / commandes totales) *100.
+    + ROAS (Return On Ads Spent) total : Retour sur investissement campagnes marketing numérique >> (coût campagnes / commandes en ligne)*100.
+    + Coût par clic : Paiement de chaque clic sur les campagnes marketing numérique
+
++ __Engagement de l’audience__ : 
+    + Clics / Like : Nombre d’interaction avec la campagne marketing numérique.
+    + Impressions : Nombre de vues sur une campagne marketing numérique.
+    + Taux de clics et ou ouverture : taux d’interaction avec les campagnes marketing numérique >> nombre de clics / nombre d’impression.
+    + Analyse des sentiments : commentaires et mentions concernant le posts (positif, négatif, neutre).
+    + Temps passé sur vidéo (optionnel) : Durée moyenne de visionnage.
+    + Followers (optionnel) : Abonnement à un compte sur les réseaux sociaux et newsletters.
+    + Retweets (optionnel) : Republication de post.
+    + Fidélisation (optionnel) : répétition de commandes.
+
+__Données externe__ <!--TODO : A MODIFIER -->
+
++ __Coûts des Productions__ :
+    + Equipement : Le coût de l'équipement utilisé pour créer le produit.
+    + Matiere première : 
+
+### Problématiques 
+
++ Comment pouvons-nous mesurer la rentabilité des campagnes marketing par pays ?
+    + Comment les événements mondiaux et les tendances de consommation influencent-ils l'engagement sur les plateformes de Burger King ? 
+    + Identifie comment les facteurs externes affectent l'interaction des utilisateurs avec la marque.
+
++ Comment pouvons-nous mesurer l’intérêt de l’audience en fonction des publications par pays  ?
+    + Quels sont les thèmes et sujets qui génèrent le plus d'engagement pour Burger King sur les différentes plateformes de médias sociaux ? Ceci aide à identifier les contenus les plus attrayants pour optimiser la stratégie de contenu.
+    + Comment les sentiments envers Burger King varient-ils en fonction des campagnes marketing lancées ? Permet d'évaluer l'impact des campagnes marketing sur la perception de la marque par les utilisateurs.
+
+
+### Perspectives
 
 
 
