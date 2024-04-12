@@ -134,13 +134,12 @@ __Données externe__ <!--TODO : A MODIFIER -->
 [Etude Campagne Marketing BURGER KING](PROJET)
 
 ├── [database/](./database/)
-
 │   ├── [CREATE DATABASE BDD_BK.sql](./database/create_bdd.sql)    
-
 │   └── [insertion_bdd.sql](./database/insertion_bdd.sql)     
 
 ├── [DONNEE/](./DONNEE/)     
 │   ├── [Externe/](./DONNEE/Externe/)    
+
 │   │   ├── [txt/](./DONNEE/Externe/txt/)
 │   │   │   ├── [carte_fidelite.txt](./DONNEE/Externe/txt/cartefidelite.txt)    
 │   │   │   ├── [classement_IDH.txt](./DONNEE/Externe/txt/classementIDH.txt)       
@@ -155,6 +154,7 @@ __Données externe__ <!--TODO : A MODIFIER -->
 │   │   │   ├── [Part_de_marche.txt](./DONNEE/Externe/txt/partdemarche.txt)  
 │   │   │   ├── [taux_change.txt](./DONNEE/Externe/txt/tauxchange.txt)   
 │   │   │   └── [taux_natalite.txt](./DONNEE/Externe/txt/tauxnatalite.txt)  
+
 │   │   ├── [csv/](./DONNEE/Externe/csv/)
 │   │   │   ├── [carte_fidelite.csv](./DONNEE/Externe/csv/cartefidelite.csv)    
 │   │   │   ├── [classement_IDH.csv](./DONNEE/Externe/csv/classementIDH.csv)       
@@ -170,9 +170,11 @@ __Données externe__ <!--TODO : A MODIFIER -->
 │   │   │   ├── [Part_de_marche.csv](./DONNEE/Externe/csv/partdemarche.csv)  
 │   │   │   ├── [taux_change.csv](./DONNEE/Externe/csv/tauxchange.csv)   
 │   │   │   ├── [taux_natalite.csv](./DONNEE/Externe/csv/tauxnatalite.csv) 
-│   │   │   └── [vente_pays.csv](./DONNEE/Externe/csv/ventepays.csv)     
+│   │   │   └── [vente_pays.csv](./DONNEE/Externe/csv/ventepays.csv)   
+
 ├── [MCD/](./MCD/)        
 │   └── [MCD_PROJET.loo](./MCD/MCD_PROJET.loo)
+
 ├── [requete/](./requete/)    
 │   ├── [requete sql simple/](./requete/requetesqlsimple/) 
 │   │   ├── [001 - Produit le plus vendu.txt](./requete/requetesqlsimple/001Produitleplusvendu.txt)  
@@ -189,4 +191,5 @@ __Données externe__ <!--TODO : A MODIFIER -->
 │   │   ├── [012- Comparaison entre le Cout d'Acquisition et la Rentabilite .txt](./requete/requetesqlsimple/012ComparaisonentreleCourdAcquisitionetlaRentabilite.txt)
 │   │   ├── [013 - Ventes Avant et Après Campagnes.txt](./requete/requetesqlsimple/013VentesAvantetAprèsCampagnes.txt)
 │   │   └── [014 - Duree moyenne d'une campagne marketing et impact sur les](./requete/requetesqlsimple/014Dureemoyennedunecampagnemarketingetimpactsurles.txt)
+
 ├── [TALEND/](./TALEND/)    
