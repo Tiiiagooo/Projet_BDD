@@ -128,7 +128,9 @@ __Données externe__ <!--TODO : A MODIFIER -->
 │   ├── requete sql relation/ # Dossier contenant les requètes SQL avec la fusion des données interne et externe.
 │   │   ├── 001 - test.txt #Exemple1 des donnees
 │   │   └── 002 - test.txt #Exemple2 des donnees
-├── TALEND/    # Dossier contenant l'exportation de nos job et métadonnée 
+├── TALEND/    # Dossier contenant l'exportation de nos job et métadonnée
+│   │   ├── x
+│   │   └── y
 ```
 
 [Etude Campagne Marketing BURGER KING](PROJET)
