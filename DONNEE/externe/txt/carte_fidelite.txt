@@ -1,0 +1,17 @@
+ID_CF,nom,prenom,adresse,mail,telephone
+1,"Jamie,Wilson,"381 Birch St",jamie.wilson@mail.com,4177061755
+2,Morgan,Miller,"917 Pine St",morgan.miller@mail.com,3848374984
+3,Quinn,Davis,"857 Sunset Blvd",quinn.davis@post.com,3157220062
+4,Dakota,Smith,"860 Oak St",dakota.smith@post.com,9045764531
+5,Charlie,Johnson,"454 Beach St",charlie.johnson@mail.com,5750133847
+6,Casey,Johnson,"923 Walnut St",casey.johnson@mail.com,5388103991
+7,Jordan,Smith,"858 Cedar St",jordan.smith@inbox.com,5341838964
+8,Jamie,Smith,"287 Oak St",jamie.smith@email.com,2507135299
+9,Jamie,Jones,"806 Elm St",jamie.jones@inbox.com,3786169814
+10,Dakota,Smith,"527 Birch St",dakota.smith@mailworld.com,4856375613
+11,Skyler,Moore,"102 Oak St",skyler.moore@fastmail.com,7793824031
+12,Jordan,Davis,"358 Sunset Blvd",jordan.davis@inbox.com,7071184392
+13,Jordan,Johnson,"741 Main St",jordan.johnson@inbox.com,8237045176
+14,Jordan,Davis,"292 Cedar St",jordan.davis@inbox.com,9593355150
+15,Dakota,Brown,"391 Oak St",dakota.brown@fastmail.com,3274040135
+

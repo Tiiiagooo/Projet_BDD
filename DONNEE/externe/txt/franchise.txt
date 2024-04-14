@@ -1,0 +1,14 @@
+ID_Franchise,Nom,adresse,mail,telephone,Royalties_Pourcentage
+1,Franchise A,791 Sunset Blvd,franchisea@fastmail.com,6126048555,6.0
+2,Franchise B,270 Elm St,franchiseb@post.com,5391631614,6.0
+3,Franchise C,977 Birch St,franchisec@mailworld.com,0669802201,6.7
+4,Franchise D,163 Sunset Blvd,franchised@email.com,2784645893,4.2
+5,Franchise E,134 Beach St,franchisee@mailworld.com,9293841710,3.4
+6,Franchise F,966 Main St,franchisef@email.com,1531492951,5.9
+7,Franchise G,492 Sunset Blvd,franchiseg@mail.com,9311936043,3.6
+8,Franchise H,193 Maple St,franchiseh@fastmail.com,4149474823,4.4
+9,Franchise I,472 Walnut St,franchisei@inbox.com,5370757354,5.7
+10,Franchise J,673 Sunset Blvd,franchisej@mailworld.com,0396981166,6.8
+11,Franchise K,778 Main St,franchisek@email.com,2681130689,4.8
+12,Franchise L,440 Pine St,franchisel@post.com,8192081038,5.0
+13,Franchise M,791 Oak St,franchisem@post.com,7330043420,7.0

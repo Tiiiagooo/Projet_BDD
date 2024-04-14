@@ -1,0 +1,158 @@
+USE BDD_BK
+GO 
+-- produit le plus vendu
+SELECT TOP 1 nom_produit, SUM(qte) AS total_ventes
+FROM VENTES
+INNER JOIN PRODUITS ON VENTES.id_produit = PRODUITS.id_produit
+GROUP BY nom_produit
+ORDER BY total_ventes DESC;
+
+--10 premiers produits les plus vendus 
+
+SELECT TOP 10 nom_produit, SUM(qte) AS total_ventes
+FROM VENTES
+INNER JOIN PRODUITS ON VENTES.id_produit = PRODUITS.id_produit
+GROUP BY nom_produit
+ORDER BY total_ventes DESC;
+
+
+-- Campagne Marketing avec le Plus Grand Nombre de Ventes
+
+SELECT TOP 1 CAMPAGNES.id_campagne, CAMPAGNES.nom_campagne ,SUM(qte) AS total_ventes
+FROM VENTES
+INNER JOIN CAMPAGNES ON VENTES.id_campagne = CAMPAGNES.id_campagne
+GROUP BY CAMPAGNES.id_campagne, CAMPAGNES.nom_campagne
+ORDER BY total_ventes DESC;
+
+
+--Analyse des ventes  des Campagnes Marketing par Pays
+SELECT CAMPAGNES.id_campagne, UTILISATEURS.localisation, SUM(VENTES.montant_total) AS montant_total_ventes
+FROM VENTES
+JOIN CAMPAGNES ON VENTES.id_campagne = CAMPAGNES.id_campagne
+JOIN UTILISATEURS ON VENTES.id_utilisateur = UTILISATEURS.id_utilisateur
+JOIN PRODUITS ON VENTES.id_produit = PRODUITS.id_produit
+JOIN INTERACTION ON UTILISATEURS.id_utilisateur = INTERACTION.id_utilisateur
+JOIN POST ON INTERACTION.id_post = POST.id_post
+JOIN PLATEFORMES ON POST.id_plateforme = PLATEFORMES.id_plateforme
+GROUP BY CAMPAGNES.id_campagne, UTILISATEURS.localisation
+ORDER BY CAMPAGNES.id_campagne, UTILISATEURS.localisation;
+
+
+--l'intérêt de l'audience en fonction des publications par pays
+SELECT POST.id_post, UTILISATEURS.localisation, COUNT(INTERACTION.id_utilisateur) AS nombre_interactions
+FROM POST
+JOIN PLATEFORMES ON POST.id_plateforme = PLATEFORMES.id_plateforme
+JOIN INTERACTION ON POST.id_post = INTERACTION.id_post
+JOIN UTILISATEURS ON INTERACTION.id_utilisateur = UTILISATEURS.id_utilisateur
+GROUP BY POST.id_post, UTILISATEURS.localisation
+ORDER BY POST.id_post, UTILISATEURS.localisation;
+
+--Analyse des Thèmes et Sujets Générant le Plus d'Engagement
+SELECT POST.id_post, POST.contenu, POST.type_post, COUNT(INTERACTION.id_utilisateur) AS nombre_interactions
+FROM POST
+JOIN INTERACTION ON POST.id_post = INTERACTION.id_post
+GROUP BY POST.id_post, POST.contenu, POST.type_post
+ORDER BY nombre_interactions DESC;
+
+--Sentiments par Campagne Marketing
+SELECT CAMPAGNES.id_campagne, CAMPAGNES.nom_campagne, INTERACTION.sentiment, COUNT(INTERACTION.id_utilisateur) AS nombre_interactions
+FROM CAMPAGNES
+JOIN VENTES ON CAMPAGNES.id_campagne = VENTES.id_campagne
+JOIN UTILISATEURS ON VENTES.id_utilisateur = UTILISATEURS.id_utilisateur
+JOIN INTERACTION ON UTILISATEURS.id_utilisateur = INTERACTION.id_utilisateur
+JOIN POST ON INTERACTION.id_post = POST.id_post
+GROUP BY CAMPAGNES.id_campagne, CAMPAGNES.nom_campagne, INTERACTION.sentiment;
+
+--Revenu Total par Campagne
+SELECT CAMPAGNES.id_campagne, CAMPAGNES.nom_campagne, SUM(VENTES.montant_total) AS revenu_total
+FROM CAMPAGNES
+JOIN VENTES ON CAMPAGNES.id_campagne = VENTES.id_campagne
+GROUP BY CAMPAGNES.id_campagne, CAMPAGNES.nom_campagne;
+
+--Nombre de Produits Vendus par Campagne
+SELECT CAMPAGNES.id_campagne, CAMPAGNES.nom_campagne, COUNT(VENTES.id_produit) AS nombre_produits_vendus
+FROM CAMPAGNES
+JOIN VENTES ON CAMPAGNES.id_campagne = VENTES.id_campagne
+GROUP BY CAMPAGNES.id_campagne, CAMPAGNES.nom_campagne;
+
+--Analyse de la vente par Campagne et par Pays
+SELECT CAMPAGNES.id_campagne, CAMPAGNES.nom_campagne, UTILISATEURS.localisation, SUM(VENTES.montant_total) AS revenu_total
+FROM CAMPAGNES
+JOIN VENTES ON CAMPAGNES.id_campagne = VENTES.id_campagne
+JOIN UTILISATEURS ON VENTES.id_utilisateur = UTILISATEURS.id_utilisateur
+GROUP BY CAMPAGNES.id_campagne, CAMPAGNES.nom_campagne, UTILISATEURS.localisation;
+
+--Coût Acquisition par Campagne
+SELECT 
+    CAMPAGNES.id_campagne, 
+    CAMPAGNES.nom_campagne,
+	CAMPAGNES.budget,
+    SUM(CAMPAGNES.budget) AS cout_total, 
+    COUNT(DISTINCT VENTES.id_utilisateur) AS nombre_acquisitions,
+    SUM(CAMPAGNES.budget) / COUNT(DISTINCT VENTES.id_utilisateur) AS cout_par_acquisition
+FROM 
+    CAMPAGNES
+JOIN 
+    VENTES ON CAMPAGNES.id_campagne = VENTES.id_campagne
+GROUP BY 
+    CAMPAGNES.id_campagne, 
+    CAMPAGNES.nom_campagne,
+	CAMPAGNES.budget;
+
+--Comparaison entre le Coût d'Acquisition et la Rentabilité 
+SELECT 
+    CAMPAGNES.id_campagne, 
+    CAMPAGNES.nom_campagne, 
+    SUM(VENTES.montant_total) AS revenu_total,
+    SUM(CAMPAGNES.budget) AS cout_total, 
+    COUNT(DISTINCT VENTES.id_utilisateur) AS nombre_acquisitions,
+    (SUM(VENTES.montant_total) - SUM(CAMPAGNES.budget)) / SUM(CAMPAGNES.budget) * 100 AS ROI
+FROM 
+    CAMPAGNES
+JOIN 
+    VENTES ON CAMPAGNES.id_campagne = VENTES.id_campagne
+GROUP BY 
+    CAMPAGNES.id_campagne, 
+    CAMPAGNES.nom_campagne;
+
+--Ventes Avant et Après Campagnes 
+SELECT 
+    VENTES1.id_campagne,
+    VENTES1.date_vente AS date_vente_avant,
+    VENTES2.date_vente AS date_vente_apres,
+    COUNT(VENTES1.id_vente) AS ventes_avant,
+    COUNT(VENTES2.id_vente) AS ventes_apres
+FROM 
+    VENTES VENTES1
+JOIN 
+    VENTES VENTES2 ON VENTES1.id_utilisateur = VENTES2.id_utilisateur
+            AND VENTES1.id_campagne != VENTES2.id_campagne
+            AND VENTES1.date_vente < VENTES2.date_vente
+GROUP BY 
+    VENTES1.id_campagne,
+    VENTES1.date_vente,
+    VENTES2.date_vente
+ORDER BY 
+    VENTES1.id_campagne,
+    VENTES1.date_vente,
+    VENTES2.date_vente;
+
+--Durée moyenne d'une campagne marketing et impact sur les ventes
+SELECT 
+    CAMPAGNES.id_campagne,
+    CAMPAGNES.nom_campagne,
+    DATEDIFF(day, CAMPAGNES.date_debut, CAMPAGNES.date_fin) AS duree_campagne_jours,
+    COUNT(VENTES.id_vente) AS nombre_ventes,
+    COUNT(DISTINCT VENTES.id_utilisateur) AS nombre_clients_uniques,
+    COUNT(VENTES.id_vente) / NULLIF(DATEDIFF(day, CAMPAGNES.date_debut, CAMPAGNES.date_fin), 0) AS ventes_par_jour
+FROM 
+    CAMPAGNES
+LEFT JOIN 
+    VENTES ON CAMPAGNES.id_campagne = VENTES.id_campagne
+GROUP BY 
+    CAMPAGNES.id_campagne,
+    CAMPAGNES.nom_campagne,
+    CAMPAGNES.date_debut,
+    CAMPAGNES.date_fin
+ORDER BY 
+    CAMPAGNES.id_campagne;

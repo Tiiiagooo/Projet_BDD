@@ -1,0 +1,15 @@
+--Comparaison entre le Coût d'Acquisition et la Rentabilité 
+SELECT 
+    CAMPAGNES.id_campagne, 
+    CAMPAGNES.nom_campagne, 
+    SUM(VENTES.montant_total) AS revenu_total,
+    SUM(CAMPAGNES.budget) AS cout_total, 
+    COUNT(DISTINCT VENTES.id_utilisateur) AS nombre_acquisitions,
+    (SUM(VENTES.montant_total) - SUM(CAMPAGNES.budget)) / SUM(CAMPAGNES.budget) * 100 AS ROI
+FROM 
+    CAMPAGNES
+JOIN 
+    VENTES ON CAMPAGNES.id_campagne = VENTES.id_campagne
+GROUP BY 
+    CAMPAGNES.id_campagne, 
+    CAMPAGNES.nom_campagne;

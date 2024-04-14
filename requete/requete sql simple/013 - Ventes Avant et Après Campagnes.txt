@@ -1,0 +1,21 @@
+--Ventes Avant et Après Campagnes 
+SELECT 
+    VENTES1.id_campagne,
+    VENTES1.date_vente AS date_vente_avant,
+    VENTES2.date_vente AS date_vente_apres,
+    COUNT(VENTES1.id_vente) AS ventes_avant,
+    COUNT(VENTES2.id_vente) AS ventes_apres
+FROM 
+    VENTES VENTES1
+JOIN 
+    VENTES VENTES2 ON VENTES1.id_utilisateur = VENTES2.id_utilisateur
+            AND VENTES1.id_campagne != VENTES2.id_campagne
+            AND VENTES1.date_vente < VENTES2.date_vente
+GROUP BY 
+    VENTES1.id_campagne,
+    VENTES1.date_vente,
+    VENTES2.date_vente
+ORDER BY 
+    VENTES1.id_campagne,
+    VENTES1.date_vente,
+    VENTES2.date_vente;

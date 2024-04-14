@@ -1,0 +1,9 @@
+USE BDD_BK
+GO 
+--10 premiers produits les plus vendus 
+
+SELECT TOP 10 nom_produit, SUM(qte) AS total_ventes
+FROM VENTES
+INNER JOIN PRODUITS ON VENTES.id_produit = PRODUITS.id_produit
+GROUP BY nom_produit
+ORDER BY total_ventes DESC;

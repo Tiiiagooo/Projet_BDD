@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<talendfile:ContextType xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:talendfile="platform:/resource/org.talend.model/model/TalendFile.xsd" xmi:id="_bhBIMPdxEe6sm_acC8SZmQ" confirmationNeeded="false" name="Default">
+  <contextParameter xmi:id="_bhBIMfdxEe6sm_acC8SZmQ" comment="" name="Burger_King_Login" prompt="Burger_King_Login?" promptNeeded="false" repositoryContextId="" type="id_String" value="CHERIF"/>
+  <contextParameter xmi:id="_bhBIMvdxEe6sm_acC8SZmQ" comment="" name="Burger_King_Port" prompt="Burger_King_Port?" promptNeeded="false" repositoryContextId="" type="id_String" value="1433"/>
+  <contextParameter xmi:id="_bhBIM_dxEe6sm_acC8SZmQ" comment="" name="Burger_King_Server" prompt="Burger_King_Server?" promptNeeded="false" repositoryContextId="" type="id_String" value="PC-AJC-VHDX"/>
+  <contextParameter xmi:id="_bhBINPdxEe6sm_acC8SZmQ" comment="" name="Burger_King_Database" prompt="Burger_King_Database?" promptNeeded="false" repositoryContextId="" type="id_String" value="BDD_BK"/>
+  <contextParameter xmi:id="_bhBINfdxEe6sm_acC8SZmQ" comment="" name="Burger_King_Schema" prompt="Burger_King_Schema?" promptNeeded="false" repositoryContextId="" type="id_String" value="dbo"/>
+  <contextParameter xmi:id="_bhBINvdxEe6sm_acC8SZmQ" comment="" name="Burger_King_Password" prompt="Burger_King_Password?" promptNeeded="false" repositoryContextId="" type="id_Password" value="enc:system.encryption.key.v1:DLPGjCT900H0OSh/l8nwzhhqfyf9ZDW8XToZ5pdE2xdnYw=="/>
+  <contextParameter xmi:id="_bhBIN_dxEe6sm_acC8SZmQ" comment="" name="Burger_King_AdditionalParams" prompt="Burger_King_AdditionalParams?" promptNeeded="false" repositoryContextId="" type="id_String" value="trustServerCertificate=true"/>
+</talendfile:ContextType>

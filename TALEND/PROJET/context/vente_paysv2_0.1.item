@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<talendfile:ContextType xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:talendfile="platform:/resource/org.talend.model/model/TalendFile.xsd" xmi:id="_0cz7EPioEe6zjaI7V5xqGw" confirmationNeeded="false" name="Default">
+  <contextParameter xmi:id="_0c0iIPioEe6zjaI7V5xqGw" comment="" name="vente_paysv2_RowSeparator" prompt="vente_paysv2_RowSeparator?" promptNeeded="false" repositoryContextId="" type="id_String" value="&quot;\n&quot;"/>
+  <contextParameter xmi:id="_0c0iIfioEe6zjaI7V5xqGw" comment="" name="vente_paysv2_FieldSeparator" prompt="vente_paysv2_FieldSeparator?" promptNeeded="false" repositoryContextId="" type="id_String" value="&quot;,&quot;"/>
+  <contextParameter xmi:id="_0c0iIvioEe6zjaI7V5xqGw" comment="" name="vente_paysv2_Header" prompt="vente_paysv2_Header?" promptNeeded="false" repositoryContextId="" type="id_Integer" value="1"/>
+  <contextParameter xmi:id="_0c0iI_ioEe6zjaI7V5xqGw" comment="" name="vente_paysv2_Encoding" prompt="vente_paysv2_Encoding?" promptNeeded="false" repositoryContextId="" type="id_String" value="UTF-8"/>
+  <contextParameter xmi:id="_0c0iJPioEe6zjaI7V5xqGw" comment="" name="vente_paysv2_File" prompt="vente_paysv2_File?" promptNeeded="false" repositoryContextId="" type="id_File" value="C:/Users/Loup/Desktop/taff/projet/PROJET/DONNEE/externe/csv/vente_pays.csv"/>
+</talendfile:ContextType>

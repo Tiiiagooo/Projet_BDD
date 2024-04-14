@@ -1,0 +1,13 @@
+ID_Ingredient,nom,quantite,prix,stock
+1,Cheddar,500,1.5,1000
+2,Sucre,300,2.0,800
+3,Viande de bœuf,1000,5.0,1200
+4,Fromage,800,3.0,1000
+5,Salade,600,1.0,700
+6,Pain à hamburger,1200,2.5,1500
+7,Cornichons,400,1.5,600
+8,Ketchup,700,1.0,900
+9,Moutarde,500,1.0,800
+10,Mayonnaise,600,1.5,700
+11,Tomates,800,1.2,1000
+12,Oignons,400,0.8,600

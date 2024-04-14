@@ -1,0 +1,7 @@
+
+--Analyse des Thèmes et Sujets Générant le Plus d'Engagement
+SELECT POST.id_post, POST.contenu, POST.type_post, COUNT(INTERACTION.id_utilisateur) AS nombre_interactions
+FROM POST
+JOIN INTERACTION ON POST.id_post = INTERACTION.id_post
+GROUP BY POST.id_post, POST.contenu, POST.type_post
+ORDER BY nombre_interactions DESC;

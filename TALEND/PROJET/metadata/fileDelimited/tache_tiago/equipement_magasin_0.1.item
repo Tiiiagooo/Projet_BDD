@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:TalendMetadata="http://www.talend.org/metadata/connection/2010" xmlns:orgomg.cwm.resource.record="http:///orgomg/cwm/resource/record.ecore">
+  <TalendMetadata:DelimitedFileConnection xmi:id="_cHadgfioEe6zjaI7V5xqGw" name="equipement_magasin" dataPackage="_cHadgvioEe6zjaI7V5xqGw" ContextMode="true" ContextId="_a5EbEPioEe6zjaI7V5xqGw" contextName="Default" Server="Localhost 127.0.0.1" FilePath="context.equipement_magasin_File" Format="WINDOWS" Encoding="context.equipement_magasin_Encoding" FieldSeparatorValue="context.equipement_magasin_FieldSeparator" RowSeparatorValue="context.equipement_magasin_RowSeparator" UseHeader="true" HeaderValue="context.equipement_magasin_Header" FirstLineCaption="true" FieldSeparatorType="Custom UTF8"/>
+  <orgomg.cwm.resource.record:RecordFile xmi:id="_cHadgvioEe6zjaI7V5xqGw" name="default" dataManager="_cHadgfioEe6zjaI7V5xqGw">
+    <ownedElement xsi:type="TalendMetadata:MetadataTable" xmi:id="_cHadg_ioEe6zjaI7V5xqGw" id="_VHA84PioEe6zjaI7V5xqGw" label="metadata">
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_cHadhPioEe6zjaI7V5xqGw" label="nom_magasin" length="37" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_cHadhfioEe6zjaI7V5xqGw" label="nom_pays" length="12" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_cHadhvioEe6zjaI7V5xqGw" label="prix" length="7" precision="2" talendType="id_Float" pattern="&quot;dd-MM-yyyy&quot;"/>
+    </ownedElement>
+  </orgomg.cwm.resource.record:RecordFile>
+</xmi:XMI>

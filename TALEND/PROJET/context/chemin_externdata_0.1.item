@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<talendfile:ContextType xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:talendfile="platform:/resource/org.talend.model/model/TalendFile.xsd" xmi:id="_gpzkUPfcEe6SaOgbpz2tDA" confirmationNeeded="false" name="Default">
+  <contextParameter xmi:id="_gpzkUffcEe6SaOgbpz2tDA" comment="" name="FluxDataExtern" prompt="FluxDataExtern?" promptNeeded="false" repositoryContextId="built-in" type="id_Directory" value="C:/Users/aurel/Documents/AJC/4. Projet ETL/dataextern/"/>
+  <contextParameter xmi:id="_gpzkUvfcEe6SaOgbpz2tDA" comment="" name="PartMarchet_txt" prompt="PartMarchet_txt?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="&quot;Part_de_marche.txt&quot;"/>
+  <contextParameter xmi:id="_SK-7kPfiEe6SaOgbpz2tDA" comment="" name="PartMarche_csv" prompt="PartMarche_csv?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="&quot;Part_de_marche.csv&quot;"/>
+  <contextParameter xmi:id="_SK-7kffiEe6SaOgbpz2tDA" comment="" name="CarteFidelite_txt" prompt="CarteFidelite_txt?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="&quot;carte_fidelite.txt&quot;"/>
+  <contextParameter xmi:id="_SK-7kvfiEe6SaOgbpz2tDA" comment="" name="CarteFidelite_csv" prompt="CarteFidelite_csv?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="&quot;carte_fidelite.csv&quot;"/>
+  <contextParameter xmi:id="_SK-7k_fiEe6SaOgbpz2tDA" comment="" name="Classement_txt" prompt="Classement_txt?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="&quot;classement_IDH.txt&quot;"/>
+  <contextParameter xmi:id="_SK-7lPfiEe6SaOgbpz2tDA" comment="" name="Classement_csv" prompt="Classement_csv?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="&quot;classement_IDH.csv&quot;"/>
+  <contextParameter xmi:id="_xbFAwPfqEe6SaOgbpz2tDA" comment="" name="Clients_txt" prompt="Clients_txt?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="&quot;client.txt&quot;"/>
+  <contextParameter xmi:id="_xbFAwffqEe6SaOgbpz2tDA" comment="" name="Clients_csv" prompt="Clients_csv?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="&quot;client.csv&quot;"/>
+  <contextParameter xmi:id="_zLn0gPfuEe6SaOgbpz2tDA" comment="" name="Demographie_txt" prompt="Demographie_txt?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="&quot;donnees_demogra.txt&quot;"/>
+  <contextParameter xmi:id="_zLn0gffuEe6SaOgbpz2tDA" comment="" name="Demographie_csv" prompt="Demographie_csv?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="&quot;donnees_demogra.csv&quot;"/>
+  <contextParameter xmi:id="_zLn0gvfuEe6SaOgbpz2tDA" comment="" name="Matiere_txt" prompt="Matiere_txt?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="&quot;matiere_premiere.txt&quot;"/>
+  <contextParameter xmi:id="_zLn0g_fuEe6SaOgbpz2tDA" comment="" name="Matiere_csv" prompt="Matiere_csv?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="&quot;matiere_premiere.csv&quot;"/>
+  <contextParameter xmi:id="_zLn0hPfuEe6SaOgbpz2tDA" comment="" name="TauxChange_txt" prompt="TauxChange_txt?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="&quot;taux_change.txt&quot;"/>
+  <contextParameter xmi:id="_zLn0hffuEe6SaOgbpz2tDA" comment="" name="TauxChange_csv" prompt="TauxChange_csv?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="&quot;taux_change.csv&quot;"/>
+  <contextParameter xmi:id="_zLn0hvfuEe6SaOgbpz2tDA" comment="" name="TauxNatalite_txt" prompt="TauxNatalite_txt?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="&quot;taux_natalite.txt&quot;"/>
+  <contextParameter xmi:id="_zLn0h_fuEe6SaOgbpz2tDA" comment="" name="TauxNatalite_csv" prompt="TauxNatalite_csv?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="&quot;taux_natalite.csv&quot;"/>
+  <contextParameter xmi:id="_T1_hgPgGEe682IYSRWA-bw" comment="" name="IDH_csv" prompt="IDH_csv?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="&quot;classement_IDH.csv&quot;"/>
+  <contextParameter xmi:id="_T1_hgfgGEe682IYSRWA-bw" comment="" name="IDH_txt" prompt="IDH_txt?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="&quot;classement_IDH.txt&quot;"/>
+  <contextParameter xmi:id="_CNdEEPgzEe670_HyyZCG6w" comment="" name="Part_marche_v2_csv" prompt="Part_marche_v2_csv?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="&quot;Part_marche_v2.csv&quot;"/>
+</talendfile:ContextType>

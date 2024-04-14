@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<talendfile:ContextType xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:talendfile="platform:/resource/org.talend.model/model/TalendFile.xsd" xmi:id="_KYtZwPjtEe6yIvHlViZORQ" confirmationNeeded="false" name="Default">
+  <contextParameter xmi:id="_KYtZwfjtEe6yIvHlViZORQ" comment="" name="IDH_csv" prompt="IDH_csv?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="&quot;classement_IDH.csv&quot;"/>
+</talendfile:ContextType>

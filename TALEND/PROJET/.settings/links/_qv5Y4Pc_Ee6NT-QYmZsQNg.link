@@ -1,0 +1,18 @@
+{
+  "itemId" : "_qv5Y4Pc_Ee6NT-QYmZsQNg",
+  "contextList" : [ {
+    "contextName" : "Default",
+    "repoId" : "_7p9_APfcEe6sBInsEzNKfA",
+    "parameterList" : [ {
+      "id" : "_7qHI8ffcEe6sBInsEzNKfA",
+      "name" : "FileDirectorycsv"
+    } ]
+  }, {
+    "contextName" : "Default",
+    "repoId" : "_G6VOEPffEe6sBInsEzNKfA",
+    "parameterList" : [ {
+      "id" : "_G6e_EfffEe6sBInsEzNKfA",
+      "name" : "FileTXTinputdirectory"
+    } ]
+  } ]
+}

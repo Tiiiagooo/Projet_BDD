@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:TalendMetadata="http://www.talend.org/metadata/connection/2010" xmlns:orgomg.cwm.resource.record="http:///orgomg/cwm/resource/record.ecore">
+  <TalendMetadata:DelimitedFileConnection xmi:id="_mP8QMPdJEe6NT-QYmZsQNg" name="taux_change" id="_mP7CEPdJEe6NT-QYmZsQNg" dataPackage="_mP8QMfdJEe6NT-QYmZsQNg" Server="Localhost 127.0.0.1" FilePath="C:/Users/Loup/Desktop/taff/projet/PROJET/DONNEE/externe/txt/taux_change.txt" Format="WINDOWS" Encoding="UTF-8" FieldSeparatorValue="&quot;,&quot;" RowSeparatorValue="&quot;\n&quot;" UseHeader="true" HeaderValue="1" FooterValue="0" LimitValue="" FirstLineCaption="true" EscapeChar="&quot;\&quot;&quot;" TextEnclosure="&quot;\&quot;&quot;" FieldSeparatorType="Comma"/>
+  <orgomg.cwm.resource.record:RecordFile xmi:id="_mP8QMfdJEe6NT-QYmZsQNg" name="default" dataManager="_mP8QMPdJEe6NT-QYmZsQNg">
+    <ownedElement xsi:type="TalendMetadata:MetadataTable" xmi:id="_mP8QMvdJEe6NT-QYmZsQNg" id="_XyRswPdJEe6NT-QYmZsQNg" label="metadata">
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_mP8QM_dJEe6NT-QYmZsQNg" label="ID_change" length="2" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_mP8QNPdJEe6NT-QYmZsQNg" label="Date_taux" length="10" talendType="id_Date" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_mP8QNfdJEe6NT-QYmZsQNg" label="Taux_change" length="4" precision="3" talendType="id_Float" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_mP8QNvdJEe6NT-QYmZsQNg" label="Devise_source" length="3" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_mP8QN_dJEe6NT-QYmZsQNg" label="Devise_cible" length="3" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_mP8QOPdJEe6NT-QYmZsQNg" label="GEOGRAPHIQUE_ID_pays" length="2" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;"/>
+    </ownedElement>
+  </orgomg.cwm.resource.record:RecordFile>
+</xmi:XMI>

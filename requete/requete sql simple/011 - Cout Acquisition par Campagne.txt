@@ -1,0 +1,16 @@
+--Coût Acquisition par Campagne
+SELECT 
+    CAMPAGNES.id_campagne, 
+    CAMPAGNES.nom_campagne,
+	CAMPAGNES.budget,
+    SUM(CAMPAGNES.budget) AS cout_total, 
+    COUNT(DISTINCT VENTES.id_utilisateur) AS nombre_acquisitions,
+    SUM(CAMPAGNES.budget) / COUNT(DISTINCT VENTES.id_utilisateur) AS cout_par_acquisition
+FROM 
+    CAMPAGNES
+JOIN 
+    VENTES ON CAMPAGNES.id_campagne = VENTES.id_campagne
+GROUP BY 
+    CAMPAGNES.id_campagne, 
+    CAMPAGNES.nom_campagne,
+	CAMPAGNES.budget;
