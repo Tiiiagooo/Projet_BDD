@@ -110,7 +110,7 @@ __Données externe__ <!--TODO : A MODIFIER -->
 ├── MCD/        # Dossier contenant le MCD du projet
 │   └── MCD_PROJET.loo
 ├── requete/    # Dossier contenant les Requètes SQL pour répondre aux problématiques
-│   ├── requete sql simple/ # Dossier contenant les requètes SQL avec les données internes
+│   ├── requete_sql_simple/ # Dossier contenant les requètes SQL avec les données internes
 │   │   ├── 001 - Produit le plus vendu.txt  # Requète sur le produit le plus vendu.txt
 │   │   ├── 002 - 10 premiers produits les plus vendus.txt
 │   │   ├── 003 - Campagne Marketing avec le Plus Grand Nombre de Ventes.txt
@@ -174,21 +174,22 @@ __Données externe__ <!--TODO : A MODIFIER -->
 │   └── [MCD_PROJET.loo](./MCD/MCD_PROJET.loo)  
 
 ├── [requete/](./requete/)      
-│   ├── [requete sql simple/](./requete/requetesqlsimple/)   
-│   │   ├── [001 - Produit le plus vendu.txt](./requete/requetesqlsimple/001Produitleplusvendu.txt)    
-│   │   ├── [002 - 10 premiers produits les plus vendus.txt](./requete/requetesqlsimple/00210premiersproduitslesplusvendus.txt)  
-│   │   ├── [003 - Campagne Marketing avec le Plus Grand Nombre de Ventes.txt](./requete/requetesqlsimple/003CampagneMarketingaveclePlusGrandNombredEventes.txt)  
-│   │   ├── [004 - Analyse de la vente par Campagne et par Pays.txt](./requete/requetesqlsimple/004AnalysedelaventeparCampagneetparPays.txt)  
-│   │   ├── [005 - l'interet de l'audience en fonction des publications par pays.txt](./requete/requetesqlsimple/005linteretdelaudienceenfonctiondespublicationsparpays.txt)  
-│   │   ├── [006 - Analyse des Themes et Sujets Generant le Plus d'Engagement.txt](./requete/requetesqlsimple/006AnalysedesThemesetSujetsGenerantlePlusdEngagement.txt)  
-│   │   ├── [007 - Sentiments par Campagne Marketing.txt](./requete/requetesqlsimple/007SentimentsparCampagneMarketing.txt)  
-│   │   ├── [008 - Revenu Total par Campagne.txt](./requete/requetesqlsimple/008RevenuTotalparCampagne.txt)  
-│   │   ├── [009 - Nombre de Produits Vendus par Campagne.txt](./requete/requetesqlsimple/009NombredeProduitsVendusparCampagne.txt)  
-│   │   ├── [010 - Analyse des ventes  des Campagnes Marketing par Pays.txt](./requete/requetesqlsimple/010AnalysedesventesdesCampagnesMarketingparPays.txt)  
-│   │   ├── [011 - Cout Acquisition par Campagne.txt](./requete/requetesqlsimple/011CoutAcquisitionparCampagne.txt)  
-│   │   ├── [012- Comparaison entre le Cout d'Acquisition et la Rentabilite .txt](./requete/requetesqlsimple/012ComparaisonentreleCourdAcquisitionetlaRentabilite.txt)  
-│   │   ├── [013 - Ventes Avant et Après Campagnes.txt](./requete/requetesqlsimple/013VentesAvantetAprèsCampagnes.txt)  
-│   │   └── [014 - Duree moyenne d'une campagne marketing et impact sur les](./requete/requetesqlsimple/014Dureemoyennedunecampagnemarketingetimpactsurles.txt)  
+│   ├── [requete_sql_simple/](./requete/requete_sql_simple/)   
+│   │   ├── [001 - Produit le plus vendu.txt](./requete/requete_sql_simple/001Produitleplusvendu.txt)    
+│   │   ├── [002 - 10 premiers produits les plus vendus.txt](./requete/requete_sql_simple/00210premiersproduitslesplusvendus.txt)  
+│   │   ├── [003 - Campagne Marketing avec le Plus Grand Nombre de Ventes.txt](./requete/requete_sql_simple/003CampagneMarketingaveclePlusGrandNombredEventes.txt)  
+│   │   ├── [004 - Analyse de la vente par Campagne et par Pays.txt](./requete/requete_sql_simple/004AnalysedelaventeparCampagneetparPays.txt)  
+│   │   ├── [005 - l'interet de l'audience en fonction des publications par pays.txt](./requete/requete_sql_simple/005linteretdelaudienceenfonctiondespublicationsparpays.txt)  
+│   │   ├── [006 - Analyse des Themes et Sujets Generant le Plus d'Engagement.txt](./requete/requete_sql_simple/006AnalysedesThemesetSujetsGenerantlePlusdEngagement.txt)  
+│   │   ├── [007 - Sentiments par Campagne Marketing.txt](./requete/requete_sql_simple/007SentimentsparCampagneMarketing.txt)  
+│   │   ├── [008 - Revenu Total par Campagne.txt](./requete/requete_sql_simple/008RevenuTotalparCampagne.txt)  
+│   │   ├── [009 - Nombre de Produits Vendus par Campagne.txt](./requete/requete_sql_simple/009NombredeProduitsVendusparCampagne.txt)  
+│   │   ├── [010 - Analyse des ventes  des Campagnes Marketing par Pays.txt](./requete/requete_sql_simple/010AnalysedesventesdesCampagnesMarketingparPays.txt)  
+│   │   ├── [011 - Cout Acquisition par Campagne.txt](./requete/requete_sql_simple/011CoutAcquisitionparCampagne.txt)  
+│   │   ├── [012- Comparaison entre le Cout d'Acquisition et la Rentabilite .txt](./requete/requete_sql_simple/012ComparaisonentreleCourdAcquisitionetlaRentabilite.txt)  
+│   │   ├── [013 - Ventes Avant et Après Campagnes.txt](./requete/requete_sql_simple/013VentesAvantetAprèsCampagnes.txt)  
+│   │   └── [014 - Duree moyenne d'une campagne marketing et impact sur les](./requete/requete_sql_simple/014Dureemoyennedunecampagnemarketingetimpactsurles.txt)  
 
 ├── [TALEND/](./TALEND/)  
 │   └── [PROJET](./TALEND/PROJET/)  
+
