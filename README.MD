@@ -126,7 +126,7 @@ __Données externe__ <!--TODO : A MODIFIER -->
 │   │   ├── 013 - Ventes Avant et Après Campagnes.txt
 │   │   └── 014 - Duree moyenne d'une campagne marketing et impact sur les  
 ├── TALEND/    # Dossier contenant l'exportation de nos job et métadonnée  
-│   └── PROJET #Contenant les projets TALEND  
+│   └── PROJET #Contenant les job/context/etc... TALEND  
 ```
 
 [Etude Campagne Marketing BURGER KING](PROJET)  
