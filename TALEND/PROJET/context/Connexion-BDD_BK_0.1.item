@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<talendfile:ContextType xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:talendfile="platform:/resource/org.talend.model/model/TalendFile.xsd" xmi:id="_5uJEcPZ8Ee61PdzbLyEzMQ" confirmationNeeded="false" name="Default">
+  <contextParameter xmi:id="_5uJEcfZ8Ee61PdzbLyEzMQ" comment="" name="Serveur" prompt="Serveur?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="DESKTOP-390JJNR"/>
+  <contextParameter xmi:id="_5uJEcvZ8Ee61PdzbLyEzMQ" comment="" name="db" prompt="db?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="BDD_BK"/>
+  <contextParameter xmi:id="_5uJEc_Z8Ee61PdzbLyEzMQ" comment="" name="Port" prompt="Port?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="1433"/>
+  <contextParameter xmi:id="_5uJEdPZ8Ee61PdzbLyEzMQ" comment="" name="User" prompt="User?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="AURELIEN"/>
+  <contextParameter xmi:id="_5uJEdfZ8Ee61PdzbLyEzMQ" comment="" name="Password" prompt="Password?" promptNeeded="false" repositoryContextId="built-in" type="id_Password" value="enc:system.encryption.key.v1:mAsgGiA80I0AX/Y3CEcN/zFvof3JZPFeT0aSPwKzFCpLAuwP"/>
+  <contextParameter xmi:id="_5uJEdvZ8Ee61PdzbLyEzMQ" comment="" name="Schema" prompt="Schema?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="dbo"/>
+  <contextParameter xmi:id="_oWFXAPZ9Ee61PdzbLyEzMQ" comment="" name="parametre_supplementaire" prompt="parametre_supplementaire?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="trustServerCertificate=true"/>
+</talendfile:ContextType>

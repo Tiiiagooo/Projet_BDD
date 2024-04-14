@@ -1,0 +1,29 @@
+{
+  "itemId" : "_Qpak4PgTEe6kEf3YP96NPw",
+  "contextList" : [ {
+    "contextName" : "Default",
+    "repoId" : "_bgeVoPdxEe6sm_acC8SZmQ",
+    "parameterList" : [ {
+      "id" : "_bhBIMfdxEe6sm_acC8SZmQ",
+      "name" : "Burger_King_Login"
+    }, {
+      "id" : "_bhBIMvdxEe6sm_acC8SZmQ",
+      "name" : "Burger_King_Port"
+    }, {
+      "id" : "_bhBIM_dxEe6sm_acC8SZmQ",
+      "name" : "Burger_King_Server"
+    }, {
+      "id" : "_bhBINPdxEe6sm_acC8SZmQ",
+      "name" : "Burger_King_Database"
+    }, {
+      "id" : "_bhBINfdxEe6sm_acC8SZmQ",
+      "name" : "Burger_King_Schema"
+    }, {
+      "id" : "_bhBINvdxEe6sm_acC8SZmQ",
+      "name" : "Burger_King_Password"
+    }, {
+      "id" : "_bhBIN_dxEe6sm_acC8SZmQ",
+      "name" : "Burger_King_AdditionalParams"
+    } ]
+  } ]
+}

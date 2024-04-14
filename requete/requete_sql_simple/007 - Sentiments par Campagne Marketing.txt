@@ -1,0 +1,9 @@
+
+--Sentiments par Campagne Marketing
+SELECT CAMPAGNES.id_campagne, CAMPAGNES.nom_campagne, INTERACTION.sentiment, COUNT(INTERACTION.id_utilisateur) AS nombre_interactions
+FROM CAMPAGNES
+JOIN VENTES ON CAMPAGNES.id_campagne = VENTES.id_campagne
+JOIN UTILISATEURS ON VENTES.id_utilisateur = UTILISATEURS.id_utilisateur
+JOIN INTERACTION ON UTILISATEURS.id_utilisateur = INTERACTION.id_utilisateur
+JOIN POST ON INTERACTION.id_post = POST.id_post
+GROUP BY CAMPAGNES.id_campagne, CAMPAGNES.nom_campagne, INTERACTION.sentiment;

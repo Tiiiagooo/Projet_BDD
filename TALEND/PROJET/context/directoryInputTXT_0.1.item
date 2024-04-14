@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<talendfile:ContextType xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:talendfile="platform:/resource/org.talend.model/model/TalendFile.xsd" xmi:id="_G6e_EPffEe6sBInsEzNKfA" confirmationNeeded="false" name="Default">
+  <contextParameter xmi:id="_G6e_EfffEe6sBInsEzNKfA" comment="" name="FileTXTinputdirectory" prompt="FileTXTinputdirectory?" promptNeeded="false" repositoryContextId="built-in" type="id_Directory" value="C:/Users/Loup/Desktop/taff/projet/PROJET/DONNEE/externe/txt/"/>
+</talendfile:ContextType>

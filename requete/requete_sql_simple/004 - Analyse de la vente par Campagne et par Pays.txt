@@ -1,0 +1,7 @@
+
+--Analyse de la vente par Campagne et par Pays
+SELECT CAMPAGNES.id_campagne, CAMPAGNES.nom_campagne, UTILISATEURS.localisation, SUM(VENTES.montant_total) AS revenu_total
+FROM CAMPAGNES
+JOIN VENTES ON CAMPAGNES.id_campagne = VENTES.id_campagne
+JOIN UTILISATEURS ON VENTES.id_utilisateur = UTILISATEURS.id_utilisateur
+GROUP BY CAMPAGNES.id_campagne, CAMPAGNES.nom_campagne, UTILISATEURS.localisation;

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<talendfile:ContextType xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:talendfile="platform:/resource/org.talend.model/model/TalendFile.xsd" xmi:id="_a5OzIPioEe6zjaI7V5xqGw" confirmationNeeded="false" name="Default">
+  <contextParameter xmi:id="_a5OzIfioEe6zjaI7V5xqGw" comment="" name="equipement_magasin_RowSeparator" prompt="equipement_magasin_RowSeparator?" promptNeeded="false" repositoryContextId="" type="id_String" value="&quot;\n&quot;"/>
+  <contextParameter xmi:id="_a5OzIvioEe6zjaI7V5xqGw" comment="" name="equipement_magasin_FieldSeparator" prompt="equipement_magasin_FieldSeparator?" promptNeeded="false" repositoryContextId="" type="id_String" value="&quot;,&quot;"/>
+  <contextParameter xmi:id="_a5OzI_ioEe6zjaI7V5xqGw" comment="" name="equipement_magasin_Header" prompt="equipement_magasin_Header?" promptNeeded="false" repositoryContextId="" type="id_Integer" value="1"/>
+  <contextParameter xmi:id="_a5OzJPioEe6zjaI7V5xqGw" comment="" name="equipement_magasin_Encoding" prompt="equipement_magasin_Encoding?" promptNeeded="false" repositoryContextId="" type="id_String" value="UTF-8"/>
+  <contextParameter xmi:id="_a5OzJfioEe6zjaI7V5xqGw" comment="" name="equipement_magasin_File" prompt="equipement_magasin_File?" promptNeeded="false" repositoryContextId="" type="id_File" value="C:/Users/Loup/Desktop/taff/projet/PROJET/DONNEE/externe/csv/equipement_magasin_pays.csv"/>
+</talendfile:ContextType>

@@ -1,0 +1,5 @@
+--Revenu Total par Campagne
+SELECT CAMPAGNES.id_campagne, CAMPAGNES.nom_campagne, SUM(VENTES.montant_total) AS revenu_total
+FROM CAMPAGNES
+JOIN VENTES ON CAMPAGNES.id_campagne = VENTES.id_campagne
+GROUP BY CAMPAGNES.id_campagne, CAMPAGNES.nom_campagne;

@@ -1,0 +1,76 @@
+{
+  "itemId" : "_hfj9IPcXEe6ixpOlEbThrQ",
+  "contextList" : [ {
+    "contextName" : "Default",
+    "repoId" : "_gpiekPfcEe6SaOgbpz2tDA",
+    "parameterList" : [ {
+      "id" : "_zLn0gffuEe6SaOgbpz2tDA",
+      "name" : "Demographie_csv"
+    }, {
+      "id" : "_gpzkUffcEe6SaOgbpz2tDA",
+      "name" : "FluxDataExtern"
+    }, {
+      "id" : "_T1_hgPgGEe682IYSRWA-bw",
+      "name" : "IDH_csv"
+    }, {
+      "id" : "_CNdEEPgzEe670_HyyZCG6w",
+      "name" : "macrofinal_csv"
+    }, {
+      "id" : "_SK-7kPfiEe6SaOgbpz2tDA",
+      "name" : "PartMarche_csv"
+    }, {
+      "id" : "_zLn0h_fuEe6SaOgbpz2tDA",
+      "name" : "TauxNatalite_csv"
+    } ]
+  }, {
+    "contextName" : "Default",
+    "repoId" : "_NchGwPcxEe6ixpOlEbThrQ",
+    "parameterList" : [ {
+      "id" : "_5uJEcvZ8Ee61PdzbLyEzMQ",
+      "name" : "db"
+    }, {
+      "id" : "_oWFXAPZ9Ee61PdzbLyEzMQ",
+      "name" : "parametre_supplementaire"
+    }, {
+      "id" : "_5uJEdfZ8Ee61PdzbLyEzMQ",
+      "name" : "Password"
+    }, {
+      "id" : "_5uJEc_Z8Ee61PdzbLyEzMQ",
+      "name" : "Port"
+    }, {
+      "id" : "_5uJEdvZ8Ee61PdzbLyEzMQ",
+      "name" : "Schema"
+    }, {
+      "id" : "_5uJEcfZ8Ee61PdzbLyEzMQ",
+      "name" : "Serveur"
+    }, {
+      "id" : "_5uJEdPZ8Ee61PdzbLyEzMQ",
+      "name" : "User"
+    } ]
+  }, {
+    "contextName" : "Default",
+    "repoId" : "_tA-OIPgEEe6Vh6ROQ_Dp3w",
+    "parameterList" : [ {
+      "id" : "_tBImMvgEEe6Vh6ROQ_Dp3w",
+      "name" : "BASE_DE_DONNEE_SQL_Login"
+    }, {
+      "id" : "_tBImN_gEEe6Vh6ROQ_Dp3w",
+      "name" : "BASE_DE_DONNEE_SQL_Server"
+    }, {
+      "id" : "_tBImM_gEEe6Vh6ROQ_Dp3w",
+      "name" : "BASE_DE_DONNEE_SQL_Port"
+    }, {
+      "id" : "_tBImMfgEEe6Vh6ROQ_Dp3w",
+      "name" : "BASE_DE_DONNEE_SQL_Schema"
+    }, {
+      "id" : "_tBImNfgEEe6Vh6ROQ_Dp3w",
+      "name" : "BASE_DE_DONNEE_SQL_AdditionalParams"
+    }, {
+      "id" : "_tBImNvgEEe6Vh6ROQ_Dp3w",
+      "name" : "BASE_DE_DONNEE_SQL_Database"
+    }, {
+      "id" : "_tBImNPgEEe6Vh6ROQ_Dp3w",
+      "name" : "BASE_DE_DONNEE_SQL_Password"
+    } ]
+  } ]
+}

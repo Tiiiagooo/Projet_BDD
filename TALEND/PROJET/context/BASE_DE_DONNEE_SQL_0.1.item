@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<talendfile:ContextType xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:talendfile="platform:/resource/org.talend.model/model/TalendFile.xsd" xmi:id="_tBImMPgEEe6Vh6ROQ_Dp3w" confirmationNeeded="false" name="Default">
+  <contextParameter xmi:id="_tBImMfgEEe6Vh6ROQ_Dp3w" comment="" name="BASE_DE_DONNEE_SQL_Schema" prompt="BASE_DE_DONNEE_SQL_Schema?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="dbo"/>
+  <contextParameter xmi:id="_tBImMvgEEe6Vh6ROQ_Dp3w" comment="" name="BASE_DE_DONNEE_SQL_Login" prompt="BASE_DE_DONNEE_SQL_Login?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="TIAGOANDRE"/>
+  <contextParameter xmi:id="_tBImM_gEEe6Vh6ROQ_Dp3w" comment="" name="BASE_DE_DONNEE_SQL_Port" prompt="BASE_DE_DONNEE_SQL_Port?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="1433"/>
+  <contextParameter xmi:id="_tBImNPgEEe6Vh6ROQ_Dp3w" comment="" name="BASE_DE_DONNEE_SQL_Password" prompt="BASE_DE_DONNEE_SQL_Password?" promptNeeded="false" repositoryContextId="built-in" type="id_Password" value="enc:system.encryption.key.v1:dgs/n+EAMQUHuJrHh4tDwwk3pnsvJiULa2dHHMWeunS/Wpqxv2o="/>
+  <contextParameter xmi:id="_tBImNfgEEe6Vh6ROQ_Dp3w" comment="" name="BASE_DE_DONNEE_SQL_AdditionalParams" prompt="BASE_DE_DONNEE_SQL_AdditionalParams?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="trustServerCertificate=true"/>
+  <contextParameter xmi:id="_tBImNvgEEe6Vh6ROQ_Dp3w" comment="" name="BASE_DE_DONNEE_SQL_Database" prompt="BASE_DE_DONNEE_SQL_Database?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="BDD_BK"/>
+  <contextParameter xmi:id="_tBImN_gEEe6Vh6ROQ_Dp3w" comment="" name="BASE_DE_DONNEE_SQL_Server" prompt="BASE_DE_DONNEE_SQL_Server?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="DESKTOP-JEKCPO8"/>
+</talendfile:ContextType>

@@ -1,0 +1,23 @@
+{
+  "itemId" : "_1dWLAPioEe6zjaI7V5xqGw",
+  "contextList" : [ {
+    "contextName" : "Default",
+    "repoId" : "_0cqKEPioEe6zjaI7V5xqGw",
+    "parameterList" : [ {
+      "id" : "_0c0iIPioEe6zjaI7V5xqGw",
+      "name" : "vente_paysv2_RowSeparator"
+    }, {
+      "id" : "_0c0iIfioEe6zjaI7V5xqGw",
+      "name" : "vente_paysv2_FieldSeparator"
+    }, {
+      "id" : "_0c0iIvioEe6zjaI7V5xqGw",
+      "name" : "vente_paysv2_Header"
+    }, {
+      "id" : "_0c0iI_ioEe6zjaI7V5xqGw",
+      "name" : "vente_paysv2_Encoding"
+    }, {
+      "id" : "_0c0iJPioEe6zjaI7V5xqGw",
+      "name" : "vente_paysv2_File"
+    } ]
+  } ]
+}

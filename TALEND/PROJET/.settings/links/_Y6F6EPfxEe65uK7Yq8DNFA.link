@@ -1,0 +1,54 @@
+{
+  "itemId" : "_Y6F6EPfxEe65uK7Yq8DNFA",
+  "contextList" : [ {
+    "contextName" : "Default",
+    "repoId" : "_bgeVoPdxEe6sm_acC8SZmQ",
+    "parameterList" : [ {
+      "id" : "_bhBIMfdxEe6sm_acC8SZmQ",
+      "name" : "Burger_King_Login"
+    }, {
+      "id" : "_bhBIMvdxEe6sm_acC8SZmQ",
+      "name" : "Burger_King_Port"
+    }, {
+      "id" : "_bhBIM_dxEe6sm_acC8SZmQ",
+      "name" : "Burger_King_Server"
+    }, {
+      "id" : "_bhBINPdxEe6sm_acC8SZmQ",
+      "name" : "Burger_King_Database"
+    }, {
+      "id" : "_bhBINfdxEe6sm_acC8SZmQ",
+      "name" : "Burger_King_Schema"
+    }, {
+      "id" : "_bhBINvdxEe6sm_acC8SZmQ",
+      "name" : "Burger_King_Password"
+    }, {
+      "id" : "_bhBIN_dxEe6sm_acC8SZmQ",
+      "name" : "Burger_King_AdditionalParams"
+    } ]
+  }, {
+    "contextName" : "Default",
+    "repoId" : "_tA-OIPgEEe6Vh6ROQ_Dp3w",
+    "parameterList" : [ {
+      "id" : "_tBImMvgEEe6Vh6ROQ_Dp3w",
+      "name" : "BASE_DE_DONNEE_SQL_Login"
+    }, {
+      "id" : "_tBImN_gEEe6Vh6ROQ_Dp3w",
+      "name" : "BASE_DE_DONNEE_SQL_Server"
+    }, {
+      "id" : "_tBImM_gEEe6Vh6ROQ_Dp3w",
+      "name" : "BASE_DE_DONNEE_SQL_Port"
+    }, {
+      "id" : "_tBImMfgEEe6Vh6ROQ_Dp3w",
+      "name" : "BASE_DE_DONNEE_SQL_Schema"
+    }, {
+      "id" : "_tBImNfgEEe6Vh6ROQ_Dp3w",
+      "name" : "BASE_DE_DONNEE_SQL_AdditionalParams"
+    }, {
+      "id" : "_tBImNvgEEe6Vh6ROQ_Dp3w",
+      "name" : "BASE_DE_DONNEE_SQL_Database"
+    }, {
+      "id" : "_tBImNPgEEe6Vh6ROQ_Dp3w",
+      "name" : "BASE_DE_DONNEE_SQL_Password"
+    } ]
+  } ]
+}

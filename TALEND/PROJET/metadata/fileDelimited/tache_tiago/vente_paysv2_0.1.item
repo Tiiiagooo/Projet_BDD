@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:TalendMetadata="http://www.talend.org/metadata/connection/2010" xmlns:orgomg.cwm.resource.record="http:///orgomg/cwm/resource/record.ecore">
+  <TalendMetadata:DelimitedFileConnection xmi:id="_1dWLAfioEe6zjaI7V5xqGw" name="vente_paysv2" dataPackage="_1dWLAvioEe6zjaI7V5xqGw" ContextMode="true" ContextId="_0cqKEPioEe6zjaI7V5xqGw" contextName="Default" Server="Localhost 127.0.0.1" FilePath="context.vente_paysv2_File" Format="WINDOWS" Encoding="context.vente_paysv2_Encoding" FieldSeparatorValue="context.vente_paysv2_FieldSeparator" RowSeparatorValue="context.vente_paysv2_RowSeparator" UseHeader="true" HeaderValue="context.vente_paysv2_Header" FirstLineCaption="true" FieldSeparatorType="Custom UTF8"/>
+  <orgomg.cwm.resource.record:RecordFile xmi:id="_1dWLAvioEe6zjaI7V5xqGw" name="default" dataManager="_1dWLAfioEe6zjaI7V5xqGw">
+    <ownedElement xsi:type="TalendMetadata:MetadataTable" xmi:id="_1dWyEPioEe6zjaI7V5xqGw" id="_owXiEPioEe6zjaI7V5xqGw" label="metadata">
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_1dWyEfioEe6zjaI7V5xqGw" label="Pays" length="12" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_1dWyEvioEe6zjaI7V5xqGw" label="montant_total" length="6" precision="4" talendType="id_Float" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_1dWyE_ioEe6zjaI7V5xqGw" label="zone_geographique" length="8" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+    </ownedElement>
+  </orgomg.cwm.resource.record:RecordFile>
+</xmi:XMI>

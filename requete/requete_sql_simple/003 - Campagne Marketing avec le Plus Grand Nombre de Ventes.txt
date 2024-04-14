@@ -1,0 +1,9 @@
+USE BDD_BK
+GO 
+-- Campagne Marketing avec le Plus Grand Nombre de Ventes
+
+SELECT TOP 1 CAMPAGNES.id_campagne, CAMPAGNES.nom_campagne ,SUM(qte) AS total_ventes
+FROM VENTES
+INNER JOIN CAMPAGNES ON VENTES.id_campagne = CAMPAGNES.id_campagne
+GROUP BY CAMPAGNES.id_campagne, CAMPAGNES.nom_campagne
+ORDER BY total_ventes DESC;

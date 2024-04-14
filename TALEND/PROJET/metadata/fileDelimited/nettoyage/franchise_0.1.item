@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:TalendMetadata="http://www.talend.org/metadata/connection/2010" xmlns:orgomg.cwm.resource.record="http:///orgomg/cwm/resource/record.ecore">
+  <TalendMetadata:DelimitedFileConnection xmi:id="_PQv0wPdCEe6NT-QYmZsQNg" name="franchise" id="_PQt_kPdCEe6NT-QYmZsQNg" dataPackage="_PQwb0PdCEe6NT-QYmZsQNg" Server="Localhost 127.0.0.1" FilePath="C:/Users/Loup/Desktop/taff/projet/PROJET/DONNEE/externe/txt/franchise.txt" Format="WINDOWS" Encoding="UTF-8" FieldSeparatorValue="&quot;,&quot;" RowSeparatorValue="&quot;\n&quot;" UseHeader="true" HeaderValue="1" FooterValue="0" LimitValue="" FirstLineCaption="true" EscapeChar="&quot;\&quot;&quot;" TextEnclosure="&quot;\&quot;&quot;" FieldSeparatorType="Comma"/>
+  <orgomg.cwm.resource.record:RecordFile xmi:id="_PQwb0PdCEe6NT-QYmZsQNg" name="default" dataManager="_PQv0wPdCEe6NT-QYmZsQNg">
+    <ownedElement xsi:type="TalendMetadata:MetadataTable" xmi:id="_PQwb0fdCEe6NT-QYmZsQNg" id="_GPLGkPdCEe6NT-QYmZsQNg" label="metadata">
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_PQwb0vdCEe6NT-QYmZsQNg" label="ID_Franchise" length="2" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_PQwb0_dCEe6NT-QYmZsQNg" label="Nom" length="11" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_PQwb1PdCEe6NT-QYmZsQNg" label="adresse" length="15" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_PQwb1fdCEe6NT-QYmZsQNg" label="mail" length="24" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_PQwb1vdCEe6NT-QYmZsQNg" label="telephone" length="10" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_PQwb1_dCEe6NT-QYmZsQNg" label="Royalties_Pourcentage" length="3" precision="2" talendType="id_Float" pattern="&quot;dd-MM-yyyy&quot;"/>
+    </ownedElement>
+  </orgomg.cwm.resource.record:RecordFile>
+</xmi:XMI>

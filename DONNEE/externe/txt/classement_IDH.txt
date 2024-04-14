@@ -1,0 +1,26 @@
+GEOGRAPHIQUE_ID_pays,IDH
+2,0.944   # Suisse
+6,0.937   # Hong Kong
+16,0.926  # Canada
+26,0.926  # États-Unis
+17,0.922  # Norvège
+7,0.921   # Irlande
+19,0.918  # Allemagne
+27,0.916  # Singapour
+20,0.914  # Pays-Bas
+8,0.913   # Danemark
+1,0.912   # Islande
+29,0.911  # Suède
+5,0.910   # Finlande
+18,0.908  # Nouvelle-Zélande
+23,0.908  # Royaume-Uni
+28,0.906  # Australie
+9,0.904   # Luxembourg
+12,0.902  # Belgique
+13,0.901  # Japon
+10,0.900  # Autriche
+21,0.899  # Canada
+24,0.897  # Slovénie
+4,0.895   # Singapour
+25,0.894  # République tchèque
+30,0.888  # Espagne

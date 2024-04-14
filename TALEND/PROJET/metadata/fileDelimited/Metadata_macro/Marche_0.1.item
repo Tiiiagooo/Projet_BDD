@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:TalendMetadata="http://www.talend.org/metadata/connection/2010" xmlns:orgomg.cwm.resource.record="http:///orgomg/cwm/resource/record.ecore">
+  <TalendMetadata:DelimitedFileConnection xmi:id="_1HCO4fjLEe65OdqaoIlbDQ" name="Marche" dataPackage="_1HCO4vjLEe65OdqaoIlbDQ" Server="Localhost 127.0.0.1" FilePath="C:/Users/aurel/Documents/AJC/4. Projet ETL/dataextern/Part_de_marche.csv" Format="WINDOWS" Encoding="UTF-8" FieldSeparatorValue="&quot;,&quot;" RowSeparatorValue="&quot;\n&quot;" EscapeType="CSV" CsvOption="true" FieldSeparatorType="Comma"/>
+  <orgomg.cwm.resource.record:RecordFile xmi:id="_1HCO4vjLEe65OdqaoIlbDQ" name="default" dataManager="_1HCO4fjLEe65OdqaoIlbDQ">
+    <ownedElement xsi:type="TalendMetadata:MetadataTable" xmi:id="_1HCO4_jLEe65OdqaoIlbDQ" id="_lIRsIPjLEe65OdqaoIlbDQ" label="metadata">
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_1HCO5PjLEe65OdqaoIlbDQ" label="NomPays" length="8" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_1HCO5fjLEe65OdqaoIlbDQ" label="Part" length="4" precision="2" talendType="id_Float" pattern="&quot;dd-MM-yyyy&quot;"/>
+    </ownedElement>
+  </orgomg.cwm.resource.record:RecordFile>
+</xmi:XMI>

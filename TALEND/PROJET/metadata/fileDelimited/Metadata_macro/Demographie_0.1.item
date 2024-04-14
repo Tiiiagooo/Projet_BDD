@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:TalendMetadata="http://www.talend.org/metadata/connection/2010" xmlns:orgomg.cwm.resource.record="http:///orgomg/cwm/resource/record.ecore">
+  <TalendMetadata:DelimitedFileConnection xmi:id="_I5BBEPjLEe65OdqaoIlbDQ" name="Demographie" dataPackage="_I5BBEfjLEe65OdqaoIlbDQ" Server="Localhost 127.0.0.1" FilePath="C:/Users/aurel/Documents/AJC/4. Projet ETL/dataextern/donnees_demogra.csv" Format="WINDOWS" Encoding="UTF-8" FieldSeparatorValue="&quot;,&quot;" RowSeparatorValue="&quot;\n&quot;" EscapeType="CSV" CsvOption="true" FieldSeparatorType="Comma"/>
+  <orgomg.cwm.resource.record:RecordFile xmi:id="_I5BBEfjLEe65OdqaoIlbDQ" name="default" dataManager="_I5BBEPjLEe65OdqaoIlbDQ">
+    <ownedElement xsi:type="TalendMetadata:MetadataTable" xmi:id="_I5BBEvjLEe65OdqaoIlbDQ" id="_ri-7MPjKEe65OdqaoIlbDQ" label="metadata">
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_I5BBE_jLEe65OdqaoIlbDQ" label="IdPays" length="2" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_I5BBFPjLEe65OdqaoIlbDQ" label="NomPays" length="8" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_I5BBFfjLEe65OdqaoIlbDQ" label="Population" length="9" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_I5BBFvjLEe65OdqaoIlbDQ" label="AgeMedian" length="4" precision="2" talendType="id_Float" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_I5BBF_jLEe65OdqaoIlbDQ" label="RevenuMoyen" length="5" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;"/>
+    </ownedElement>
+  </orgomg.cwm.resource.record:RecordFile>
+</xmi:XMI>

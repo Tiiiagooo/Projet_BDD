@@ -1,0 +1,107 @@
+{
+  "itemId" : "_AB2yAPftEe6sBInsEzNKfA",
+  "contextList" : [ {
+    "contextName" : "Default",
+    "repoId" : "_tA-OIPgEEe6Vh6ROQ_Dp3w",
+    "parameterList" : [ {
+      "id" : "_tBImNfgEEe6Vh6ROQ_Dp3w",
+      "name" : "BASE_DE_DONNEE_SQL_AdditionalParams"
+    }, {
+      "id" : "_tBImNvgEEe6Vh6ROQ_Dp3w",
+      "name" : "BASE_DE_DONNEE_SQL_Database"
+    }, {
+      "id" : "_tBImMvgEEe6Vh6ROQ_Dp3w",
+      "name" : "BASE_DE_DONNEE_SQL_Login"
+    }, {
+      "id" : "_tBImNPgEEe6Vh6ROQ_Dp3w",
+      "name" : "BASE_DE_DONNEE_SQL_Password"
+    }, {
+      "id" : "_tBImM_gEEe6Vh6ROQ_Dp3w",
+      "name" : "BASE_DE_DONNEE_SQL_Port"
+    }, {
+      "id" : "_tBImMfgEEe6Vh6ROQ_Dp3w",
+      "name" : "BASE_DE_DONNEE_SQL_Schema"
+    }, {
+      "id" : "_tBImN_gEEe6Vh6ROQ_Dp3w",
+      "name" : "BASE_DE_DONNEE_SQL_Server"
+    } ]
+  }, {
+    "contextName" : "Default",
+    "repoId" : "_7p9_APfcEe6sBInsEzNKfA",
+    "parameterList" : [ {
+      "id" : "_7qHI8ffcEe6sBInsEzNKfA",
+      "name" : "FileDirectorycsv"
+    } ]
+  }, {
+    "contextName" : "Default",
+    "repoId" : "_G6VOEPffEe6sBInsEzNKfA",
+    "parameterList" : [ {
+      "id" : "_G6e_EfffEe6sBInsEzNKfA",
+      "name" : "FileTXTinputdirectory"
+    } ]
+  }, {
+    "contextName" : "Default",
+    "repoId" : "_Tm0FIPhKEe6ygZBzA3u6MA",
+    "parameterList" : [ {
+      "id" : "_Tm92JPhKEe6ygZBzA3u6MA",
+      "name" : "equipementv3_FieldSeparator"
+    }, {
+      "id" : "_Tm92JfhKEe6ygZBzA3u6MA",
+      "name" : "equipementv3_File"
+    } ]
+  }, {
+    "contextName" : "Default",
+    "repoId" : "_a5EbEPioEe6zjaI7V5xqGw",
+    "parameterList" : [ {
+      "id" : "_a5OzJfioEe6zjaI7V5xqGw",
+      "name" : "equipement_magasin_File"
+    }, {
+      "id" : "_a5OzIvioEe6zjaI7V5xqGw",
+      "name" : "equipement_magasin_FieldSeparator"
+    }, {
+      "id" : "_a5OzJPioEe6zjaI7V5xqGw",
+      "name" : "equipement_magasin_Encoding"
+    }, {
+      "id" : "_a5OzI_ioEe6zjaI7V5xqGw",
+      "name" : "equipement_magasin_Header"
+    }, {
+      "id" : "_a5OzIfioEe6zjaI7V5xqGw",
+      "name" : "equipement_magasin_RowSeparator"
+    } ]
+  }, {
+    "contextName" : "Default",
+    "repoId" : "_SpPS4PioEe6zjaI7V5xqGw",
+    "parameterList" : [ {
+      "id" : "_SpZq8fioEe6zjaI7V5xqGw",
+      "name" : "vente_pays1_RowSeparator"
+    }, {
+      "id" : "_SpZq9PioEe6zjaI7V5xqGw",
+      "name" : "vente_pays1_File"
+    }, {
+      "id" : "_SpZq8_ioEe6zjaI7V5xqGw",
+      "name" : "vente_pays1_Encoding"
+    }, {
+      "id" : "_SpZq8vioEe6zjaI7V5xqGw",
+      "name" : "vente_pays1_FieldSeparator"
+    } ]
+  }, {
+    "contextName" : "Default",
+    "repoId" : "_0cqKEPioEe6zjaI7V5xqGw",
+    "parameterList" : [ {
+      "id" : "_0c0iIPioEe6zjaI7V5xqGw",
+      "name" : "vente_paysv2_RowSeparator"
+    }, {
+      "id" : "_0c0iIvioEe6zjaI7V5xqGw",
+      "name" : "vente_paysv2_Header"
+    }, {
+      "id" : "_0c0iIfioEe6zjaI7V5xqGw",
+      "name" : "vente_paysv2_FieldSeparator"
+    }, {
+      "id" : "_0c0iJPioEe6zjaI7V5xqGw",
+      "name" : "vente_paysv2_File"
+    }, {
+      "id" : "_0c0iI_ioEe6zjaI7V5xqGw",
+      "name" : "vente_paysv2_Encoding"
+    } ]
+  } ]
+}

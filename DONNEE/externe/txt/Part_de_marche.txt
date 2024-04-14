@@ -1,0 +1,82 @@
+Pays:Plateforme:Part de marché
+Finlande: Burger King : 20%
+
+
+Finlande:McDonald's : 35%
+Finlande:KFC : 10%
+Finlande:Subway : 15%
+Finlande:Autres : 20%
+
+Russie :Burger King : 15%
+Russie :McDonald's : 25%
+Russie :KFC : 12%
+Russie :Subway : 18%
+Russie :Autres : 30%
+
+Grèce :Burger King : 18%
+Grèce :McDonald's : 30%
+Grèce :KFC : 8%
+Grèce :Subway : 12%
+Grèce :Autres : 32%
+
+France :Burger King : 25%
+France :McDonald's : 40%
+France :KFC : 15%
+France :Quick : 10%
+France :Autres : 10%
+
+Pays-Bas :Burger King : 22%
+Pays-Bas :McDonald's : 38%
+Pays-Bas :KFC : 9%
+Pays-Bas :Subway : 13%
+Pays-Bas :Autres : 18%
+
+Danemark :Burger King : 20%
+Danemark :McDonald's : 32%
+Danemark :KFC : 11%
+Danemark :Subway : 17%
+Danemark :Autres : 20%
+
+Suède :Burger King : 23%
+Suède :McDonald's : 37%
+Suède :KFC : 10%
+Suède :Subway : 14%
+Suède :Autres : 16%
+
+Islande :Burger King : 18%
+Islande : McDonald's : 30%
+Islande :KFC : 10%
+Islande :Subway : 15%
+Islande :Autres : 27%
+
+Hongrie :Burger King : 19%
+Hongrie :McDonald's : 28%
+Hongrie :KFC : 13%
+Hongrie :Subway : 16%
+Hongrie :Autres : 24%
+
+Croatie :
+
+Croatie :Burger King : 17%
+Croatie :McDonald's : 27%
+Croatie :KFC : 11%
+Croatie :Subway : 20%
+Croatie :Autres : 25%
+
+Lettonie :Burger King : 16%
+Lettonie :McDonald's : 25%
+Lettonie :KFC : 10%
+Lettonie :Subway : 18%
+Lettonie :Autres : 31%
+
+Lituanie :Burger King : 15%
+Lituanie :McDonald's : 24%
+Lituanie :KFC : 9%
+Lituanie :Subway : 20%
+Lituanie :Autres : 32%
+
+Roumanie :Burger King : 20%
+Roumanie :McDonald's : 35%
+Roumanie :KFC : 13%
+Roumanie :Subway : 12%
+Roumanie :Autres : 20% 2%

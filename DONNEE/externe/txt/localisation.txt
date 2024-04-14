@@ -1,0 +1,15 @@
+ID_Localisation,zone_geographique,Pays,Ville,adresse,date_ouverture
+1,Europe,Finlande,Helsinki,22 Walnut St,2020-01-01
+2,Europe,Russie,Moscow,22 Main St,2012-01-01
+3,Europe,Grece,Athens,22 Beach St,2017-01-01
+4,Europe,France,Paris,22 Maple St,2011-01-01
+5,Europe,Pays-Bas,Amsterdam,22 Oak St,2011-01-01
+6,Europe,Danemark,Copenhagen,22 Elm St,2012-01-01
+7,Europe,Suede,Stockholm,22 Sunset Blvd,2014-01-01
+8,Europe,Islande,Reykjavik,22 Oak St,2019-01-01
+9,Europe,Hongrie,Budapest,22 Pine St,2013-01-01
+10,Europe,Croatie,Zagreb,22 Walnut St,2010-01-01
+11,Europe,Lettonie,Riga,22 Cedar St,2018-01-01
+12,Europe,Lituanie,Vilnius,22 Main St,2011-01-01
+13,Europe,Roumanie,Bucharest,22 Beach St,2011-01-01
+14,Amerique,Etats-Unis,New-york,xxx,2011-01-01

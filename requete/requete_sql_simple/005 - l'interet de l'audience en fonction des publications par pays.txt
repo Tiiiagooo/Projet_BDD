@@ -1,0 +1,8 @@
+--l'intérêt de l'audience en fonction des publications par pays
+SELECT POST.id_post, UTILISATEURS.localisation, COUNT(INTERACTION.id_utilisateur) AS nombre_interactions
+FROM POST
+JOIN PLATEFORMES ON POST.id_plateforme = PLATEFORMES.id_plateforme
+JOIN INTERACTION ON POST.id_post = INTERACTION.id_post
+JOIN UTILISATEURS ON INTERACTION.id_utilisateur = UTILISATEURS.id_utilisateur
+GROUP BY POST.id_post, UTILISATEURS.localisation
+ORDER BY POST.id_post, UTILISATEURS.localisation;

@@ -1,0 +1,19 @@
+--Durée moyenne d'une campagne marketing et impact sur les ventes
+SELECT 
+    CAMPAGNES.id_campagne,
+    CAMPAGNES.nom_campagne,
+    DATEDIFF(day, CAMPAGNES.date_debut, CAMPAGNES.date_fin) AS duree_campagne_jours,
+    COUNT(VENTES.id_vente) AS nombre_ventes,
+    COUNT(DISTINCT VENTES.id_utilisateur) AS nombre_clients_uniques,
+    COUNT(VENTES.id_vente) / NULLIF(DATEDIFF(day, CAMPAGNES.date_debut, CAMPAGNES.date_fin), 0) AS ventes_par_jour
+FROM 
+    CAMPAGNES
+LEFT JOIN 
+    VENTES ON CAMPAGNES.id_campagne = VENTES.id_campagne
+GROUP BY 
+    CAMPAGNES.id_campagne,
+    CAMPAGNES.nom_campagne,
+    CAMPAGNES.date_debut,
+    CAMPAGNES.date_fin
+ORDER BY 
+    CAMPAGNES.id_campagne;

@@ -1,0 +1,5 @@
+--Nombre de Produits Vendus par Campagne
+SELECT CAMPAGNES.id_campagne, CAMPAGNES.nom_campagne, COUNT(VENTES.id_produit) AS nombre_produits_vendus
+FROM CAMPAGNES
+JOIN VENTES ON CAMPAGNES.id_campagne = VENTES.id_campagne
+GROUP BY CAMPAGNES.id_campagne, CAMPAGNES.nom_campagne;

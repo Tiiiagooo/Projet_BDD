@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<talendfile:ContextType xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:talendfile="platform:/resource/org.talend.model/model/TalendFile.xsd" xmi:id="_mhUVIPjrEe6yIvHlViZORQ" confirmationNeeded="false" name="Default">
+  <contextParameter xmi:id="_mhUVIfjrEe6yIvHlViZORQ" comment="" name="TauxNatalite_csv" prompt="TauxNatalite_csv?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="&quot;taux_natalite_csv&quot;"/>
+</talendfile:ContextType>
