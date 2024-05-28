@@ -9,7 +9,7 @@
 
 ### Contexte
 
-Conception d’un entrepôt de données pour étudier les données des clients issues des campagnes marketing numérique (spécifiquement sur les réseaux sociaux) afin d’analyser et d’optimiser les performances commerciales numériques et spécifiquement et identifier les tendances comportementales.
+Conception d’un entrepôt de données pour étudier les données des clients issues des campagnes marketing numériques (spécifiquement sur les réseaux sociaux) afin d’analyser et d’optimiser les performances commerciales numériques et d'identifier les tendances comportementales.
 
 ### Informations entreprise 
 
@@ -22,7 +22,7 @@ Conception d’un entrepôt de données pour étudier les données des clients i
 
 + Interactions relatives aux campagnes marketing numérique sur les plateformes de réseaux sociaux (Twitter, Facebook, Instagram) et par mail : post, commentaire, like, partage, coût.
 + Commandes quotidiennes : Commandes enregistrées numériques ou physiques.
-+ Clients :  ge, sexe, pays, email, devices (appareils), préférences alimentaires.
++ Clients :  Âge, sexe, pays, email, devices (appareils), préférences alimentaires.
 + Produits : typologie de produits dans les commandes.
 + Localisation des franchises : adresse, régions, pays.
 
